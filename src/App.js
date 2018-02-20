@@ -20,8 +20,8 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <ChatRoom />
-        {/* <div className={cssStyles.header}>
+       
+        <div className={cssStyles.header}>
           <img src={logo} className="App-logo" alt="logo" />
           <h2 className="App-title">
             <Emoji label="danger" emoji="☢" />
@@ -39,7 +39,9 @@ class App extends Component {
               create-react-app my-app --scripts-version custom-react-scripts
             </code>
           </div>
-
+  
+          <ChatRoom />
+          
           <p>
             If you want to enable/disable certain features just modify the
             <b> .env</b> file in the root directory of the project.
@@ -119,7 +121,7 @@ class App extends Component {
           >
             Link to full README.md
           </a>
-        </div> */}
+        </div> 
       </div>
     );
   }
